@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food website</title>
+  <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/css/project2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-teritory">
+    <div class="container-fluid">
+      <img class="img" src="./images/food_logo-new.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="span">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./services.html"><span class="span">services</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Menu.html"><span class="span">Menu</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./join-us.html"><span class="span">join us</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./About-us.html"><span class="span">About us</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./contact-us.html"><span class="span">contact us</span>
+  
+              </a>
+            </li>
+  
+          </ul>
+        <form class="d-flex" role="search" id="form">
+          <input id="input-search" class="form-control me-2" type="search" placeholder="Search your food"
+            aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" id="sub-btn">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row" id="join">
+      <div class="col-6">
+        <h1 class="join-us-today">let's join us</h1>
+      </div>
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"
+          placeholder="Enter your Password">
+        <div class="d-grid gap-2 col-6 mx-auto my-4">
+          <button class="btn btn-outline-info" type="submit">Login</button>
+          <button class="btn btn-outline-success" type="submit" id="last-btn">create new account</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

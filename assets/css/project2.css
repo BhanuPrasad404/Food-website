@@ -1,0 +1,342 @@
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+#navbarSupportedContent {
+    margin-left: 350px;
+}
+@media (max-width:500px) {
+   .navbar-nav{
+        margin-left: -350px;
+    }    
+}
+  
+@media (min-width:270px) and (max-width:700px) {
+    #input-search {
+        margin-left: -350px;
+        width: 200px;
+    }
+    
+}
+.nav-link {
+   -webkit-text-fill-color: white;
+   font-size: 20px;
+   padding: 2px 12px;
+   font-family: "Montserrat" sans-serif;
+   font-weight: 800;
+   color: transparent;
+}
+.nav-link:hover .span {
+    background-color: rgb(237, 245, 252);
+    -webkit-text-fill-color: rgb(227, 23, 23);
+    border-radius: 8px;  
+}
+#week-offer {
+    background-image: url('../images/food.png');
+}
+#image-1 {
+    height: 550px;
+    
+}
+#btn-btn {
+    width: 100px;
+    padding: 10px;
+}
+#btn-btn:hover {
+    color: black;
+}
+#bt-class {
+    
+    margin-bottom: 200px;
+}
+.navbar {
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+    
+   
+}
+.navbar-dark {
+    color: white;
+}
+
+.h1 {
+    font-family: "Montserrat" sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    background: linear-gradient(to right,red,yellow);
+    -webkit-background-clip: text;
+    background-clip: text;    
+    color: transparent    
+}
+@media (max-width:320px) {
+    .h1 {
+        font-size: 20px;
+        font-weight: 1000;   
+    }   
+}
+.p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.col-4 {
+    flex-direction: column;
+    padding: 30px;
+}
+.order-img {
+    width: 200px;
+    height: 200px;
+}
+.h2 {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(115, 16, 32);
+    margin-top: 15px;
+}
+.col-12 h1 {
+    font-family: "Montserrat" sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+@media (max-width:770px) {
+    .order-img {
+        width: 80px;
+        height: 80px;
+    }
+    .h2 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+}
+#order-btn {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+#order-btn:hover {
+    width: 620px;
+    
+}
+@media (min-width:270px) and (max-width:900px) {
+    #order-btn:hover {
+        width:250px
+    }    
+}
+.col-3 {
+    width: 100px;
+}
+#imgs {
+    width: 300px;
+    height: 200px;    
+}
+.card-title {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Montserrat" sans-serif;
+    color: rgb(255, 0, 221);
+}
+#card-1:hover {
+    width: 450px;
+
+}
+@media (min-width:250px) and (max-width:900px) {
+    #card-1:hover {
+        max-width: 95%;
+        width: 370px;
+    }   
+}
+@media (min-width:900px) and (max-width:1200px) {
+    #card-1:hover {
+        width: 300px;
+    }   
+}
+#menu {
+    width: 120px;
+    height: 120px;
+}
+.add-btn {
+    background-color: rgb(190, 14, 14);
+    border-radius: 25px;
+    color: white;
+    outline: none;
+
+}
+#menu-title {
+    color: rgb(36, 45, 181);
+}
+.car {
+    font-size: 50px;
+    color: rgb(83, 20, 231);
+    font-weight: 800;
+    font-family: "Montserrat" sans-serif;
+    z-index: 1;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 60px; 
+    height: 60px; 
+    background-color: #333; 
+    border-radius: 30px; 
+    color: #fff; 
+    margin-top: 100px;   
+}
+ .carousel-control-prev:hover,
+ .carousel-control-next:hover {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.navbar-nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg-for-food.jpg'); /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; 
+}
+
+#about-us{
+   background-image: url('../images/abous-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.about {
+    color: white;
+}
+#about {
+    color: rgb(36, 223, 123);
+}
+#join {
+    background-image: url('../images/Untitled\ design\ \(31\).png');
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.join-us-today {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Montserrat" sans-serif;
+}
+.form-label {
+    color:white;
+}
+#menu-club {
+    background-image: url('../images/—Pngtree—atmosphere\ black\ red\ menu\ invitation_1092334\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 98%; 
+}
+.col-2 {
+    box-sizing: border-box;
+}
+@media (max-width:900px) {
+    #location {
+        width: 100px;
+    }    
+}
+@media (min-width:414px) and (max-width:500px) {
+    #location {
+        width: 50px;
+        
+    }    
+}
+@media (min-width:270px) and (max-width:412px) {
+    #location {
+        width: 44px;
+        padding-right: 5px;
+        
+    }   
+}
+@media (min-width:270px) and (max-width:550px) {
+    #last-btn {
+        height: 40px;
+        box-sizing: border-box;
+        font-size: 8px;
+        font-weight: 600;
+        color: white;
+    }    
+}
+#contact {
+    background-color: black;
+}
+.contact-us {
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    font-family: "Montserrat" sans-serif;
+}
+.content-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.list-unstyled a {
+    text-decoration: none;
+}
+.list-unstyled i {
+    font-size: 20px;
+    color: white;
+}
+  
+
+@media (max-width: 576px) {
+    body {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  }
+.sign-up-class:hover{
+    color: black;
+}
+#our-menu-club,#next-menu{
+    background-image: url('../images/body-bg.jpg');
+}
+.special-offers {
+    color: white;
+}
+@media (min-width: 250px) and (max-width: 1366px) {
+    .embed-responsive .embed-responsive-item {
+      max-width: 100%; /* Adjust this value as needed */
+      width: 100%; /* Ensure the map fills its parent container */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    #location-id {
+      max-width: 100%; /* Adjust this value as needed */
+      width: 96%; /* Ensure the map fills its parent container */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+.card-box:hover {
+  
+        box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+       
+    
+}
+.n-btn {
+    border-radius: 20px;
+}
+
+.footer-cont li a {
+    text-decoration: none;
+    color: rgb(228, 19, 162);
+}
+@media (min-width:200px) and (max-width:700px) {
+    .footer-div {
+        max-width: 100%;
+       
+    }    
+} 
+.hr-class {
+    color: white;
+}
+  
